@@ -1,0 +1,11 @@
+# Ignore data and metadata files
+data/airbnb/*
+data/states/*
+data/zillow/*
+data/proc-backup/*
+docs/*
+
+# Ignore checkpoints
+.ipynb_checkpoints/
+neighborhood*
+zillow*

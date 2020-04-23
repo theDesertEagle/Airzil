@@ -1,0 +1,18 @@
+# AIRZIL PROJECT ENVIRONMENT - Setup
+version: '3'
+
+services:
+    airzil:
+        image: thedeserteagle/airzil:latest
+        ports:
+            - 8080:8080
+        networks:
+            - mainnet
+        volumes:
+            - .:/home/airzil
+        environment: 
+            - PROJ_HOME=/home/airzil
+
+networks:
+    mainnet:
+        driver: bridge
