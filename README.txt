@@ -47,6 +47,8 @@ docker-compose run --service-ports airzil
 • To startup the Jupyter notebook that reports our findings, navigate to the project root containing 'jnb_startup.sh' script and type:
 ./jnb_startup.sh
 
+This should spin up the Airzil Jupyter notebook application 'eda.ipynb' 
+
 ------------------------------------------------------------
 
 <<< FOR DEVELOPERS >>>
